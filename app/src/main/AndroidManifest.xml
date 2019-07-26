@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.learntibetan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/profile"
+        android:label="Learn Tibetan"
+        android:roundIcon="@drawable/profile"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NavigationActivity"
+            android:label="Learn Tibetan"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".NavigationActivity"/>
+        <activity
+            android:name=".SecondActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ThirdActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FourthActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FamilyActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NumberActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TimedateActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".VowelsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PronounsActivity"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>

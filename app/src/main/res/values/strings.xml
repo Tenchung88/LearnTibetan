@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LearnTibetan</string>
+    <string name="vowels">དབྱངས་བཞི་ནི།: ཨི།ཨུ།ཨེ།ཨོ།</string>
+    <string name="pronouns">
+གང་ཟག་གི་མིང་ཚབ། =Personal Pronouns
+
+1st person 	2nd person	3rd person
+   ང་            ཁྱེད་རང་       ཁོང་
+   I            You        He/She
+   ང་ཚོ་          ཁྱེད་རང་ཚོ་      ཁོང་ཚོ་
+   We	        You        They
+
+སྤྱི་ལ་ཁྱབ་པའི་མིང་ཚབ།་ = Demonstrative pronouns
+ འདི་      ཕ་གི་       དེ་           ཡ་གི་              མ་གི་
+This	That    That    That up there     That down there
+ འདི་ཚོ་     ཕ་ཚོ་      དེ་ཚོ་           ཡ་ཚོ་             མ་ཚོ་
+These	Those   Those     Those up there	Those down there
+
+    </string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Learn Tibetan</string>
+    <string name="nav_header_subtitle">By Tenzin Chozom Bhuchung</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Search</string>
+</resources>
